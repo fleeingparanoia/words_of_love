@@ -2,6 +2,9 @@
 
 A small and simple flutter project with the goal of displaying cute comments that can be found under lofi videos on youtube.
 
+![Comments](comments_view.jpg)
+![Saved](saved_view.jpg)
+![Channels](subscribed_view.jpg)
 ## Idea
 
 The user can "subscribe" to his favourite youtube channels. After that, he can cycle through the top comments of each video and save the ones he likes. A list with every video of every channel is kept somewhere and shuffled each time the user pulls down to refresh, so that the user doesn't always see the same comments of the videos. 
