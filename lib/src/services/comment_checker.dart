@@ -1,4 +1,5 @@
-import 'package:words_of_love/src/models/channel.dart';
+// The goal of this is to filter out the comments that directly refer to the video
+
 import 'package:words_of_love/src/models/comment.dart';
 
 class CommentChecker {

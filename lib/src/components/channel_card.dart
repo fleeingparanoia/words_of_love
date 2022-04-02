@@ -40,7 +40,7 @@ class ChannelCard extends StatelessWidget {
                       fontSize: 16,
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 5,
                   ),
                   Text(

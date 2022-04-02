@@ -1,3 +1,5 @@
+// An author is a person who writes the comment
+
 import 'package:hive/hive.dart';
 
 part 'author.g.dart';

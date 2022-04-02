@@ -1,3 +1,5 @@
+// The comments posted by the authors
+
 import 'package:hive/hive.dart';
 import 'package:words_of_love/src/models/author.dart';
 

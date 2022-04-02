@@ -1,3 +1,5 @@
+// Speaks for itself... the youtube channel that can be subscribed to
+
 import 'package:hive/hive.dart';
 import 'package:words_of_love/src/constants/const_functions.dart';
 import 'package:words_of_love/src/models/video.dart';

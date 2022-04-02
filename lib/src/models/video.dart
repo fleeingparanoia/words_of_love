@@ -1,5 +1,6 @@
+// The videos to which the comments correspond
+
 import 'package:hive/hive.dart';
-import 'package:words_of_love/src/models/comment.dart';
 
 part 'video.g.dart';
 

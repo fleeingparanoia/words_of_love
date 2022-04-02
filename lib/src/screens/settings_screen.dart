@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:words_of_love/src/components/crazy_app_bar.dart';
 
 class SettingsScreen extends StatefulWidget {
@@ -10,19 +9,6 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  late final prefs;
-
-  void loadSharedPrefs() async {
-    // Obtain shared preferences.
-    prefs = await SharedPreferences.getInstance();
-  }
-
-  @override
-  void initState() {
-    loadSharedPrefs();
-    super.initState();
-  }
-
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
